@@ -1,9 +1,9 @@
 postgresql_databases:
-  - name: mysite
+  - name: myproject
 postgresql_users:
-  - name: mysiteuser
-    pass: mysiteuserpass
+  - name: myprojectuser
+    pass: myprojectuserpass
 postgresql_user_privileges:
-  - name: mysiteuser
-    db: mysite
+  - name: myprojectuser
+    db: myproject
     priv: "ALL"
